@@ -167,7 +167,6 @@ Made with <fg=green>love</> by the Aimeos community. Be a part of it!
 	public static function setup( Event $event )
 	{
 		$options = [];
-        var_dump($event->isDevMode() );
 
 		if( $event->isDevMode() ) {
 			$options[] = '--option=setup/default/demo:1';
