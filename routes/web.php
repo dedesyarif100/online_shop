@@ -13,6 +13,7 @@
 
 if( env( 'SHOP_MULTILOCALE' ) )
 {
+    
     $locale = ['prefix' => '{locale}', 'where' => ['locale' => '[a-zA-Z]{2}(\_[a-zA-Z]{2})?']];
 
     Route::get('/', function () {
